@@ -1,0 +1,29 @@
+.FormRow {
+  display: flex;
+  justify-content: space-between;
+
+  .FormRowItem {
+    margin-bottom: 16px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FormRowItemText {
+    color: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.ConfirmRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  //margin-top: 10px;
+
+  .ConfirmButton {
+    margin-top: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+  }
+}

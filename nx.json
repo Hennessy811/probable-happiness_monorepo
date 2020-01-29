@@ -1,0 +1,22 @@
+{
+  "npmScope": "fit",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "b2c-lk": {
+      "tags": []
+    },
+    "b2c-lk-e2e": {
+      "tags": [],
+      "implicitDependencies": ["b2c-lk"]
+    }
+  }
+}
